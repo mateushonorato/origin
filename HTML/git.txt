@@ -1,0 +1,7 @@
+git pull (atualiza o meu pc com o meu repositorio)
+git pull upstream master (atualiza meu pc com o repositorio original) x
+git push origin master (atualiza la no git o meu repositorio com o que fiz no dia)
+git add .
+git commit -m ""
+git push origin master (adicionando no repositorio)
+merge requests (enviar para o principal) 

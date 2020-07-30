@@ -1,0 +1,79 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+form {
+    background-color: none;    
+    margin: 30px auto;  
+    padding: 70px; /*preenchimento da caixa */  
+    max-width: 730px;
+    line-height: 30px; 
+      
+ 
+}
+
+section .name-section{
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 700; /* AQUIIIIIIIII*/ 
+    text-align: center;
+    color: #111A21;
+    line-height: 0px;
+    
+}
+
+section .description{
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 0;
+    color: #111A21;
+    
+}
+
+
+form input,
+form textarea {
+    background-color:none;
+
+    width: 100%;
+    line-height: 30px;
+    border: 0px;
+    background: #f2f2f2;
+    padding: 14px 20px;
+    font-size:16px;
+    outline: none;
+    border-radius: 4px;
+}
+
+form label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color:#111A21;
+}
+
+form textarea{
+    padding: 25px;
+    height: 90px
+}
+
+
+form button{
+    width: 300px;
+    height: 50px;
+    background-color: #111A21;
+    border-radius: 8px;
+
+    color:white;
+    font-weight: normal;
+    font-size: 20px ;
+    font-family: 'Roboto';
+
+  
+    
+    border:0;
+
+    margin-top: 40px;
+
+    
+}

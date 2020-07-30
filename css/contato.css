@@ -1,62 +1,57 @@
-body {
-    margin-top: 0px;
-    margin-left: 0px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contact { 
+    width: 40vw;
+    margin: auto;
 }
 
 section .name-section{
+     
     margin-top: 80px;
     font-family: 'Roboto', black;
     font-size: 40px;
     text-align: center;
     color: #111A21;
     line-height: 0px;
-    
-    
+
 }
 
 section .description{
-    margin-top: -10px;
+    margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-align: center;
     font-weight: 0;
     color: #111A21;
-    
+    margin-bottom: 10px;
 }
 
 form {
-    background-color: none;    
-    margin: 20px auto;  
-    max-width: 730px;
-    line-height: 70px; 
+    margin: auto;
 }
 
-  
-
-
 form input {
-    background-color:none;
 
+    background-color:none;
     width: 100%;
-    line-height: 30px;
+    line-height: 20px;
     border: 2px; 
     background: #f2f2f2;
-    padding: 15px 30px;
+    padding-bottom: 30px;
     font-size:16px;
     outline: none;
     border-radius: 4px;
-    
 }
 
 form .mensage input{
-    padding: 120px 30px;
-    margin-top: -20px;
-   
-
+    padding-bottom: 200px;
 }
 
 form label{
-  
+    display: inline-block;
+    padding-top: 40px;
     font-family: 'Roboto Regular', sans-serif;
     font-size: 20px;
     color:#111A21;
@@ -65,10 +60,10 @@ form label{
 
 
 form button{
+    
     margin-top: 40px;
-    margin: 50px auto; 
-    width: 330px;
-    height: 70px;
+    width: 22vw;
+    height: 7vh;
     background-color: #111A21;
     border-radius: 4px;
 
@@ -76,6 +71,7 @@ form button{
     font-weight: normal;
     font-size: 25px ;
     font-family: 'Roboto';
+    letter-spacing: 3px;
     
     border:0;
 

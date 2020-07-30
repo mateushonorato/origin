@@ -17,7 +17,7 @@
     font-style: inherit;
 }
 
-.pessoa01 img{
+pessoa01 .img{
     height: 150px; 
     width: 150px;
     border-radius: 50%;  
@@ -73,7 +73,7 @@
 }
 
 .pessoa03 h1{
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI'; 
     font-size: 18px;
     
 }

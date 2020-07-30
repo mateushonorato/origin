@@ -1,0 +1,364 @@
+/* ------------------------------------------------ HEADER --------------------------------------------------------------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: grid;
+    height: 100vh;
+    background: #A9081C;
+    grid-template-rows: 25% 70%;
+}
+
+header nav{
+    justify-self: right;
+    align-self: center;
+}
+
+header .menu{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+header .menu h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    color: white;
+    align-self: center;
+}
+
+header .menu a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+header .main{
+    display: grid;
+}
+
+header .main h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 180px;
+    color: #b50c21;
+    text-shadow: 0px 4px 7px #0003;
+}
+
+header .main h2{
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: .2rem;
+    color: #fff;
+    margin-top: -20px;
+}
+
+header .main .button{
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    outline: inherit;
+    cursor: pointer;
+}
+
+header .main button{
+    justify-self: center;
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    color: #fff
+}
+
+header .logo{
+    display: grid;
+    margin-bottom: -100px;
+    margin-left: 50px;
+}
+
+header .logo img{
+    height: 20px; 
+    width: 20px;
+    margin-top: -300;
+}
+/* ------------------------------------------------ SOBRE NÓS --------------------------------------------------------------- */
+
+.sobreNos h1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+}
+
+.sobreNos h2{
+    font-size: 13px;
+    font-weight: normal;
+    font-family: 'Segoe UI';
+
+}
+
+.sobreNos h3{
+    font-size: 14px;
+    margin-bottom: -10px;
+    font-weight: normal;   
+
+}
+
+
+.ImgSobreNos img{
+    height: 250px; 
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 800px; 
+    
+}
+
+/* ------------------------------------------------ SERVIÇOS --------------------------------------------------------------- */
+
+.serviços{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.serviços h1{
+    font-size: 33px;
+    margin-top: 50px;
+
+}
+
+.serviços h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.serviços01{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black
+}
+
+.serviços01 h1{
+    font-size: 25px;
+}
+
+.serviços01 h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+.serviços02{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black
+}
+
+.serviços02 h1{
+    font-size: 25px;
+}
+
+.serviços02 h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.serviços03{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black
+}
+
+.serviços03 h1{
+    font-size: 25px;
+   
+}
+
+.serviços03 h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+/* ------------------------------------------------ EQUIPE --------------------------------------------------------------- */
+
+.equipe h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.equipe h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.pessoa01 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;  
+}
+
+.pessoa01 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.pessoa01 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    
+}
+
+.pessoa01{
+    display: grid;
+    margin-left: 300px
+}
+
+
+.pessoa02 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%
+}
+
+.pessoa02 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa02 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa02{
+    display: grid;
+    margin-top: -150px;
+}
+
+
+
+.pessoa03 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa03 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa03 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa03{
+    display: grid;
+    margin-left: 900px;
+    margin-top: -198px;
+}
+
+
+
+.pessoa04 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa04 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa04 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa04{
+    display: grid;
+    margin-left: 300px;
+}
+
+
+
+.pessoa05 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa05 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.pessoa05 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px
+}
+
+.pessoa05{
+    display: grid;
+    margin-top: -150px;
+}
+
+
+
+.pessoa06 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa06 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa06 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa06{
+    display: grid;
+    margin-left: 900px;
+}
+
+.pessoa06{
+    display: grid;
+    margin-left: 900px;
+    margin-top: -198px;
+}
+
+
+
+
+
+

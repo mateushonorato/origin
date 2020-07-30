@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ------------------------------------------------ EQUIPE --------------------------------------------------------------- */
+
+.equipe h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.equipe h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.pessoa01 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;  
+}
+
+.pessoa01 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+.pessoa01 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    
+}
+
+.pessoa01{
+    display: grid;
+    margin-left: 300px
+}
+
+
+.pessoa02 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%
+}
+
+.pessoa02 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa02 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa02{
+    display: grid;
+    margin-top: -150px;
+}
+
+
+
+.pessoa03 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa03 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa03 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa03{
+    display: grid;
+    margin-left: 900px;
+    margin-top: -198px;
+}
+
+
+
+.pessoa04 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa04 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa04 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa04{
+    display: grid;
+    margin-left: 300px;
+}
+
+
+
+.pessoa05 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa05 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.pessoa05 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px
+}
+
+.pessoa05{
+    display: grid;
+    margin-top: -150px;
+}
+
+
+
+.pessoa06 img{
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pessoa06 h1{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    
+}
+
+.pessoa06 h2{    
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.pessoa06{
+    display: grid;
+    margin-left: 900px;
+}
+
+.pessoa06{
+    display: grid;
+    margin-left: 900px;
+    margin-top: -198px;
+}
+
+
+
+
+
+

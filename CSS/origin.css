@@ -3,7 +3,6 @@
     padding: 0px;
 }
 
-
 /*Inicio*/
 header{
     display: grid;
@@ -125,51 +124,125 @@ header .logo a {
     padding: 20px 0;
 }
 
+/*-----------------------------------Serviços--------------------------------------*/
 
-/*------------------------------------------Sobre nós---------------------------------------------------------------*/
-
-
-.image-pessoas img {
-    height: 350px;
-    width: 530px;
-    margin-top: -500px;
-    margin-left: 720px;
+.service{
+    display: inline-flex; 
+    flex-direction: column;
+    align-items: space-between;
+    width: 100%;
+    text-align: center;
 }
-.titulo2 h2{
-    text-transform: uppercase;
+
+.service div{
+    justify-content: center;
+}
+.service .name-section{
     margin-top: 80px;
     font-family: 'Roboto', black;
-    font-size: 40px;
+    font-size: 56px;
     text-align: center;
     color: #111A21;
     line-height: 0px;
-
+    text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
-.titulo2 p{
-    text-transform: uppercase;
+.service .description{
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-weight: 0;
     color: #111A21;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.service .card{ 
+    display: inline-flex;
+    flex-direction: column;
+    width: 450px;
+    height: 45vh;
+    background-color:#fff;
+    box-shadow: -1px 9px 9px rgb(0, 0, 0, 0.25);
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border:solid 0.5px rgb(80, 80, 80, 0.1);
+}
+
+.service .card .subtitle{
+    width: 100%;
+    height: 20%;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service .card .info{
+    padding-top: 20px;
+    width: 60%;
+    font-size: 20px;
+    align-self: center;
+    font-weight: 500; 
+}
+
+/*------------------------------------------Sobre nós---------------------------------------------------------------*/
+
+.layout{
+    margin-top: 50px;
+    width: 100%;
+    display: inline-flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.image-pessoas img {
+    width: 35vw;
+    height: 50vh;
+}
+.titulo2 h2{
+    margin-top: 80px;
+    font-family: 'Roboto', black;
+    font-size: 56px;
+    text-align: center;
+    color: #111A21;
+    line-height: 0px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.titulo2 p{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 0;
+    color: #111A21;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
 }
 
 
 .texto {
+    margin-right: 2vw;
+    width: 35%;
+    height: 100%;
     font-family: 'Roboto';  
-    margin-top:70px;
-    padding-left: 170px;
-    width: 500px;
-    line-height: 40px;
-    font-size: 20px;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
 }
 
 /*Serviço*/
 
-/*------------------------------------------Equipe-------------------------------------------------------------------*/
+/*------------------------------------------Equipe-----------------------------------------------------*/
 
 .team{
     display: flex; 
@@ -180,22 +253,24 @@ header .logo a {
 .equipe h2{
     margin-top: 80px;
     font-family: 'Roboto', black;
-    font-size: 40px;
+    font-size: 56px;
     text-align: center;
     color: #111A21;
     line-height: 0px;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .equipe p{
-    text-transform: uppercase;
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-weight: 0;
     color: #111A21;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
 }
 .team .card{
     display: flex; 
@@ -244,7 +319,6 @@ header .logo a {
 }
 
 
-
 /*-------------------------------------------Contato-------------------------------------------------*/
 .contact {       
     width: 40vw;
@@ -255,25 +329,30 @@ section .name-section {
     
     margin-top: 80px;
     font-family: 'Roboto', black;
-    font-size: 40px;
+    font-size: 56px;
     text-align: center;
     color: #111A21;
     line-height: 0px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
 
 }
 
 section .description{
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-weight: 0;
     color: #111A21;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
 }
 
 form {
     margin: auto;
+    margin-bottom: 15vh;
 }
 
 form input {
@@ -299,7 +378,6 @@ form label{
     font-family: 'Roboto Regular', sans-serif;
     font-size: 20px;
     color:#111A21;
-    
 }
 
 
@@ -321,7 +399,58 @@ form button{
 
 }
 
+/*--------------------------------------footer------------------------------------*/
 
-/*Maps*/
+footer .rodape{
+    background-color: #A9081C;
+    color: white;
+    font-family: 'Roboto';
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30vh;
+    align-items: center;    
+}
+
+footer .rodape div{
+    text-align: left;
+    width: 15vw;
+    height: 50%;
+}
+footer .rodape ul{
+    display: flex; 
+    flex-direction: column;
+}
+.rodape .name{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rodape .copy{
+    margin-top: 10px;
+}
+.rodape li{
+    margin-top: 5px;
+}
+
+.rodape li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+}
+
+.rodape address{
+    font-style: normal;
+}
+
+footer ul{
+    list-style: none;
+    color: white;
+}
+
+
+
 
 

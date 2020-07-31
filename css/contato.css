@@ -7,15 +7,13 @@
     margin: auto;
 }
 
-section .name-section{
-    
+section .name-section{   
     margin-top: 80px;
     font-family: 'Roboto', black;
     font-size: 40px;
     text-align: center;
     color: #111A21;
     line-height: 0px;
-
 }
 
 section .description{

@@ -6,8 +6,7 @@
 /*Inicio*/
 header{
     display: grid;
-    height: 100vh;
-    width: ;
+    height: 120vh;
     background: #A9081C;
     grid-template-rows: 25% 70%;
 }
@@ -16,6 +15,10 @@ header{
 header nav{
     justify-self: right;
     align-self: center;
+}
+
+header .dropdown {
+    display: none;
 }
 
 header .menu{
@@ -48,23 +51,31 @@ header .main{
 }
 
 header .main h1{
+    width: 90%;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-weight: 900;
-    font-size: 180px;
+    font-weight: 900px;
+    font-size: 15em;
     color: #b50c21;
     text-shadow: 0px 4px 7px #0003;
 }
 
 header .main h2{
+    width: 90%;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 2em;
     font-family:  'Roboto', sans-serif;
     text-align: center;
     letter-spacing: .2rem;
     color: #fff;
     margin-top: -20px;
+}
+
+header div .button{
+    padding-bottom: 150px;
+    text-align: center;
+    width: 90%;
 }
 
 header .main .button{
@@ -73,19 +84,20 @@ header .main .button{
     border: none;
     font: inherit;
     outline: inherit;
-    cursor: pointer;
+    
 }
 
 header .main button{
     justify-self: center;
-    width: 200px;
-    height: 40px;
+    width: 210px;
+    height: 45px;
     background: none;
     border: 2px solid #fff;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Roboto';
     margin-top: 50px;
-    color: #fff
+    color: #fff;
+    cursor: pointer;
 }
 
 
@@ -93,12 +105,11 @@ header .main button{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    vertical-align: center;
 }
 
 .main{
     flex:1;
-
 }
 
 
@@ -198,13 +209,11 @@ header .logo a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: left;
     margin-bottom: 50px;
 }
 
 .image-pessoas img {
     width: 35vw;
-    height: 50vh;
 }
 .titulo2 h2{
     margin-top: 80px;

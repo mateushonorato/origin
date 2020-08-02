@@ -1,14 +1,7 @@
 @media screen and (max-width: 768px) {
     /* pagina inicial */
     header .main h1{
-        width: 90%;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        font-weight: 900px;
-        font-size: 10em;
-        color: #b50c21;
-        text-shadow: 0px 4px 7px #0003;
+        font-size: 9em;
     }
     header .main h2{
         width: 90%;
@@ -133,6 +126,7 @@
     /* contato */
     .contact {       
         width: 70vw;
+        border-top:10px solid #fff;
     }
     form .mensage input{
         padding-bottom: 150px;

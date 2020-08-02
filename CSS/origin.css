@@ -3,6 +3,20 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url("../fonts/segoeuibold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Black'), url("../fonts/segoeuiblack.woff") format('woff');
+}
+
 /*Inicio*/
 header{
     display: grid;
@@ -27,11 +41,12 @@ header .menu{
     grid-template-columns: 20% 80%;
 }
 
+
+
 header .menu h2{
+    font-family: 'Segoe UI Bold', Fallback, sans-serif;
     text-transform: uppercase;
     font-size: 36px;
-    font-weight: 700;
-    font-family: 'Segoe UI';
     color: white;
     align-self: center;
 }
@@ -53,9 +68,8 @@ header .main{
 header .main h1{
     width: 90%;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI Black', Fallback, sans-serif;
     text-align: center;
-    font-weight: 900px;
     font-size: 15em;
     color: #b50c21;
     text-shadow: 0px 4px 7px #0003;
@@ -417,6 +431,7 @@ input[type=checkbox]:checked~#myDropdown {
 .contact {       
     width: 40vw;
     margin: auto; 
+    border-top:42px solid #fff;
 }
 
 section .name-section {

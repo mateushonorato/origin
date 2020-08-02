@@ -23,27 +23,37 @@
             <h2>ORIGIN</h2>
             <nav>
                 <a href="#link1">HOME</a>
-                <a href="#link2">SOBRE NÓS</a>
+                <a href="#sobre">SOBRE NÓS</a>
                 <a href="#link3">SERVIÇOS</a>
                 <a href="#link4">EQUIPE</a>
-                <a href="#link5">CONTATO</a>
+                <a href="#contato">CONTATO</a>
 
             </nav>
 
-            <div class="dropdown">
-                <button class="mainmenubtn"></button>
+            <div class="container">
+                <input type="checkbox" id="checkbox-menu">
+
+                <label for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
                 <div id="myDropdown" class="dropdown-child">
                     <a href="#link1">HOME</a>
-                    <a href="#link2">SOBRE NÓS</a>
+                    <a href="#sobre">SOBRE NÓS</a>
                     <a href="#link3">SERVIÇOS</a>
                     <a href="#link4">EQUIPE</a>
                     <a href="#link5">CONTATO</a>
                 </div>
+
             </div>
 
 
 
         </div>
+
+
 
         <div class=principal>
 
@@ -77,7 +87,7 @@
 
     <main>
         <!--Sobre nós-->
-        <div class="titulo2">
+        <div class="titulo2" id="sobre">
             <h2>
                 SOBRE NÓS
             </h2>
@@ -260,47 +270,6 @@
             </div>
         </div>
     </footer>
-
-    <style>
-        .mainmenubtn {
-            border: none;
-            cursor: pointer;
-            background-image: url("./images/menu.png");
-            background-size: 100%;
-            background-color: #00000000;
-            width: 50px;
-            height: 50px;
-
-        }
-
-        .mainmenubtn:hover {
-            background-color: #00000000;
-        }
-
-        .dropdown {
-            position: relative;
-            padding: 50px;
-            display:flexbox;
-            justify-content: end;
-        }
-
-        .dropdown-child {
-            display: none;
-            background-color: black;
-            min-width: 180px;
-        }
-
-        .dropdown-child a {
-            color: white;
-            padding: 20px;
-            text-decoration: none;
-            display: block;
-        }
-
-        .dropdown:hover .dropdown-child {
-            display: block;
-        }
-    </style>
 
 </body>
 

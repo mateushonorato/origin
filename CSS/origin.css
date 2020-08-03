@@ -41,8 +41,6 @@ header .menu{
     grid-template-columns: 20% 80%;
 }
 
-
-
 header .menu h2{
     font-family: 'Segoe UI Bold', Fallback, sans-serif;
     text-transform: uppercase;
@@ -323,6 +321,7 @@ input[type=checkbox]:checked~#myDropdown {
     line-height: 0px;
     text-transform: uppercase;
     margin-bottom: 40px;
+    border-top:80px solid #fff;
 }
 
 .titulo2 p{

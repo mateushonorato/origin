@@ -42,7 +42,7 @@
                     <span></span>
                 </label>
 
-                <div id="myDropdown" class="dropdown-child">
+                <div id="myDropdown" class="dropdown-child" onclick="hideMenu()">
                     <a href="#home">HOME</a>
                     <a href="#sobre">SOBRE NÓS</a>
                     <a href="#servicos">SERVIÇOS</a>
@@ -269,5 +269,11 @@
     </footer>
 
 </body>
+
+<script>
+    function hideMenu() {
+        document.getElementById("checkbox-menu").checked = false;
+    }
+</script>
 
 </html>

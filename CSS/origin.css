@@ -83,7 +83,6 @@ header .main h2{
     text-align: center;
     letter-spacing: .2rem;
     color: #fff;
-    margin-top: -20px;
 }
 
 header div .button{
@@ -97,8 +96,7 @@ header .main .button{
     color: inherit;
     border: none;
     font: inherit;
-    outline: inherit;
-    
+    outline: inherit;  
 }
 
 header .main button{
@@ -127,7 +125,6 @@ header .main button{
     flex:1;
 }
 
-
 header .logo img {
     height: 20px; 
     width: 20px;
@@ -139,7 +136,6 @@ header .logo {
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-
     align-self: start;
     justify-self: start;
     width: 10%;
@@ -151,7 +147,6 @@ header .logo a {
 }
 
 /*-----------------------------------Menu Dropdown--------------------------------------*/
-
 .container {
     height: 100%;
     display: grid;
@@ -241,6 +236,23 @@ input[type=checkbox]:checked~#myDropdown {
 }
 
 /*------------------------------------------Sobre nós---------------------------------------------------------------*/
+.titulo2 h2{
+    margin-top: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    text-align: center;
+    color: #111A21;
+    text-transform: uppercase;
+}
+
+.titulo2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #111A21;
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+}
 
 .layout{
     width: 100%;
@@ -248,32 +260,6 @@ input[type=checkbox]:checked~#myDropdown {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-.image-pessoas img {
-    width: 35vw;
-}
-.titulo2 h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 56px;
-    text-align: center;
-    color: #111A21;
-    line-height: 0px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    border-top:80px solid #fff;
-}
-
-.titulo2 p{
-    margin-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 0;
-    color: #111A21;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    margin-bottom: 2vh;
 }
 
 .texto {
@@ -284,6 +270,10 @@ input[type=checkbox]:checked~#myDropdown {
     font-size: 22px;
     letter-spacing: 1.5px;
     line-height: 30px;
+}
+
+.image-pessoas img {
+    width: 35vw;
 }
 
 /*-----------------------------------Serviços--------------------------------------*/
@@ -299,19 +289,17 @@ input[type=checkbox]:checked~#myDropdown {
 .service div{
     justify-content: center;
 }
+
 .service .name-section{
-    margin-top: 40px;
+    margin-top: 8vh;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
     color: #111A21;
-    line-height: 0px;
     text-transform: uppercase;
-    margin-bottom: 40px;
 }
 
 .service .description{
-    margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -347,6 +335,7 @@ input[type=checkbox]:checked~#myDropdown {
 .service .card .info{
     padding-top: 20px;
     width: 60%;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     align-self: center;
     font-weight: 500; 
@@ -359,22 +348,17 @@ input[type=checkbox]:checked~#myDropdown {
 }
 
 .equipe h2{
-    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
     color: #111A21;
-    line-height: 0px;
     text-transform: uppercase;
-    margin-bottom: 40px;
 }
 
 .equipe p{
-    margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
-    font-weight: 0;
     color: #111A21;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -394,36 +378,23 @@ input[type=checkbox]:checked~#myDropdown {
     align-items: center;
     flex: 1;
 }
-.team .card img,
-.team .card-2 img{
+.team .card img {
     object-fit: cover;
     border-radius: 50%;
     width: 300px;
     height: 300px;  
 }
 
-/* TIRAR DAQUI DEPOIS*/
-@media screen and (max-width: 1366px) and (max-height: 768px) {
-    .team .card img,
-    .team .card-2 img{
-        width: 250px;
-        height: 250px;  
-    }
-}
-
-.team .card .name, 
-.team .card-2 .name{
+.team .card .name {
     padding-top: 10px;
     text-align: center;    
     font-family: 'Roboto', black;
     font-style: bold;
     width: 100%;
     font-size: 18px;
-
 }
 
-.team .card .charge,
-.team .card-2 .charge{
+.team .card .charge {
     text-align: center; 
     font-weight: normal;
     font-family: 'Roboto';
@@ -432,33 +403,24 @@ input[type=checkbox]:checked~#myDropdown {
     height: 10vh;
 }
 
-
 /*-------------------------------------------Contato-------------------------------------------------*/
 .contact {       
     width: 40vw;
     margin: auto; 
-    border-top:42px solid #fff;
 }
 
 section .name-section {
-    
-    margin-top: 40px;
-    font-family: 'Roboto', black;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
     color: #111A21;
-    line-height: 0px;
     text-transform: uppercase;
-    margin-bottom: 40px;
-
 }
 
 section .description{
-    margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
-    font-weight: 0;
     color: #111A21;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -471,7 +433,6 @@ form {
 }
 
 form input {
-
     background-color:none;
     width: 100%;
     line-height: 20px;
@@ -497,21 +458,17 @@ form label{
 
 
 form button{
-    
     margin-top: 40px;
     width: 22vw;
     height: 10vh;
     background-color: #111A21;
     border-radius: 4px;
-
     color:white;
     font-weight: normal;
     font-size: 25px ;
     font-family: 'Roboto';
     letter-spacing: 3px;
-    
     border:0;
-
 }
 
 /*--------------------------------------footer------------------------------------*/

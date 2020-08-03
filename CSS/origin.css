@@ -3,11 +3,24 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url("../fonts/segoeuibold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Black'), url("../fonts/segoeuiblack.woff") format('woff');
+}
+
 /*Inicio*/
 header{
     display: grid;
-    height: 100vh;
-    width: ;
+    height: 120vh;
     background: #A9081C;
     grid-template-rows: 25% 70%;
 }
@@ -18,6 +31,10 @@ header nav{
     align-self: center;
 }
 
+header .dropdown {
+    display: none;
+}
+
 header .menu{
     padding: 50px;
     display: grid;
@@ -25,17 +42,16 @@ header .menu{
 }
 
 header .menu h2{
+    font-family: 'Segoe UI Bold', Fallback, sans-serif;
     text-transform: uppercase;
     font-size: 36px;
-    font-weight: 700;
-    font-family: 'Segoe UI';
     color: white;
     align-self: center;
 }
 
 header .menu a{
     text-transform: uppercase;
-    font-family: ' Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
@@ -48,23 +64,30 @@ header .main{
 }
 
 header .main h1{
+    width: 90%;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI Black', Fallback, sans-serif;
     text-align: center;
-    font-weight: 900;
-    font-size: 180px;
+    font-size: 15em;
     color: #b50c21;
     text-shadow: 0px 4px 7px #0003;
 }
 
 header .main h2{
+    width: 90%;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 2em;
     font-family:  'Roboto', sans-serif;
     text-align: center;
     letter-spacing: .2rem;
     color: #fff;
     margin-top: -20px;
+}
+
+header div .button{
+    padding-bottom: 150px;
+    text-align: center;
+    width: 90%;
 }
 
 header .main .button{
@@ -73,19 +96,20 @@ header .main .button{
     border: none;
     font: inherit;
     outline: inherit;
-    cursor: pointer;
+    
 }
 
 header .main button{
     justify-self: center;
-    width: 200px;
-    height: 40px;
+    width: 210px;
+    height: 45px;
     background: none;
     border: 2px solid #fff;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Roboto';
     margin-top: 50px;
-    color: #fff
+    color: #fff;
+    cursor: pointer;
 }
 
 
@@ -93,12 +117,11 @@ header .main button{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    vertical-align: center;
 }
 
 .main{
     flex:1;
-
 }
 
 
@@ -122,6 +145,91 @@ header .logo {
 
 header .logo a {
     padding: 20px 0;
+}
+
+/*-----------------------------------Menu Dropdown--------------------------------------*/
+
+.container {
+    height: 100%;
+    display: grid;
+    justify-content: end;
+    display: none;
+    position: relative;
+}
+
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+label[for="checkbox-menu"] {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 22px;
+    width: 30px;
+}
+
+label[for="checkbox-menu"] span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #ffffff;
+    transition: 0.25s ease-in-out;
+}
+
+label[for="checkbox-menu"] span:nth-child(1) {
+    top: 0;
+}
+
+label[for="checkbox-menu"] span:nth-child(2) {
+    top: 8px;
+}
+
+label[for="checkbox-menu"] span:nth-child(3) {
+    top: 16px;
+}
+
+#checkbox-menu:checked+label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#checkbox-menu:checked+label span:nth-child(2) {
+    opacity: 0;
+}
+
+#checkbox-menu:checked+label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: black;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+    width: 20vh;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+input[type=checkbox]:checked~#myDropdown {
+    display: block;
 }
 
 /*-----------------------------------Serviços--------------------------------------*/
@@ -198,13 +306,11 @@ header .logo a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: left;
     margin-bottom: 50px;
 }
 
 .image-pessoas img {
     width: 35vw;
-    height: 50vh;
 }
 .titulo2 h2{
     margin-top: 80px;
@@ -215,6 +321,7 @@ header .logo a {
     line-height: 0px;
     text-transform: uppercase;
     margin-bottom: 40px;
+    border-top:80px solid #fff;
 }
 
 .titulo2 p{
@@ -323,6 +430,7 @@ header .logo a {
 .contact {       
     width: 40vw;
     margin: auto; 
+    border-top:42px solid #fff;
 }
 
 section .name-section {

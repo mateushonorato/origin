@@ -20,7 +20,7 @@
 /*Inicio*/
 header{
     display: grid;
-    height: 120vh;
+    height: 100vh;
     background: #A9081C;
     grid-template-rows: 25% 70%;
 }
@@ -39,6 +39,7 @@ header .menu{
     padding: 40px;
     display: grid;
     grid-template-columns: 20% 80%;
+    max-height: 6vh;
 }
 
 header .menu h2{

@@ -240,6 +240,52 @@ input[type=checkbox]:checked~#myDropdown {
     display: none;
 }
 
+/*------------------------------------------Sobre nós---------------------------------------------------------------*/
+
+.layout{
+    width: 100%;
+    display: inline-flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-pessoas img {
+    width: 35vw;
+}
+.titulo2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    text-align: center;
+    color: #111A21;
+    line-height: 0px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-top:80px solid #fff;
+}
+
+.titulo2 p{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 0;
+    color: #111A21;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.texto {
+    margin-right: 2vw;
+    width: 35%;
+    height: 100%;
+    font-family: 'Roboto';  
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
 /*-----------------------------------Serviços--------------------------------------*/
 
 .service{
@@ -254,7 +300,7 @@ input[type=checkbox]:checked~#myDropdown {
     justify-content: center;
 }
 .service .name-section{
-    margin-top: 80px;
+    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
@@ -306,62 +352,14 @@ input[type=checkbox]:checked~#myDropdown {
     font-weight: 500; 
 }
 
-/*------------------------------------------Sobre nós---------------------------------------------------------------*/
-
-.layout{
-    margin-top: 50px;
-    width: 100%;
-    display: inline-flex; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.image-pessoas img {
-    width: 35vw;
-}
-.titulo2 h2{
-    margin-top: 80px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 56px;
-    text-align: center;
-    color: #111A21;
-    line-height: 0px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    border-top:80px solid #fff;
-}
-
-.titulo2 p{
-    margin-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 0;
-    color: #111A21;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    margin-bottom: 2vh;
-}
-
-
-.texto {
-    margin-right: 2vw;
-    width: 35%;
-    height: 100%;
-    font-family: 'Roboto';  
-    font-size: 22px;
-    letter-spacing: 1.5px;
-    line-height: 30px;
-}
-
-/*Serviço*/
-
 /*------------------------------------------Equipe-----------------------------------------------------*/
 
+.team{
+    padding-top: 40px;
+}
+
 .equipe h2{
-    margin-top: 80px;
+    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
@@ -444,7 +442,7 @@ input[type=checkbox]:checked~#myDropdown {
 
 section .name-section {
     
-    margin-top: 80px;
+    margin-top: 40px;
     font-family: 'Roboto', black;
     font-size: 56px;
     text-align: center;

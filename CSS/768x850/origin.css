@@ -67,6 +67,10 @@
         margin-left: auto;
     }
     /* equipe */
+    .team{
+        padding-top: 50px;
+        background-color: none;
+    }
     .team .card img,
     .team .card-2 img{
         width: 180px;

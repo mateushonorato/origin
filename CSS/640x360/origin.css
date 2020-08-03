@@ -114,6 +114,9 @@
     }
 
     /* serviços */
+    .service{
+        background-color: none;
+    }
     .service .name-section {
         font-size: 30px;
         margin-bottom: 20px;
@@ -156,7 +159,12 @@
     }
 
     /* equipe */
+    
+    .team{
+        padding-top: 10px;
+    }
     .equipe h2 {
+        height: 100%;
         font-size: 30px;
         margin-bottom: 20px;
     }

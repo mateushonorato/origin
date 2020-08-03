@@ -14,7 +14,7 @@
         text-align: center;
         letter-spacing: .2rem;
         color: #fff;
-        margin-top: -20px;
+        margin-top: 2px;
     }
 
     header .main button {
@@ -75,6 +75,7 @@
 
     /* mostrando o menu hamburguer */
     header .container {
+        margin-left: auto;
         display: flex;
     }
 

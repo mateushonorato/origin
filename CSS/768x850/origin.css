@@ -11,7 +11,7 @@
         text-align: center;
         letter-spacing: .2rem;
         color: #fff;
-        margin-top: -20px;
+        margin-top: 2px;
     }
     header .main button{
         justify-self: center;
@@ -64,6 +64,7 @@
     /* mostrando o menu hamburguer */
     header .container {
         display: flex;
+        margin-left: auto;
     }
     /* equipe */
     .team .card img,

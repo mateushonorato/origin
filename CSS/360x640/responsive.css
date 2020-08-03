@@ -1,154 +1,154 @@
-@media screen and (max-width: 360px) and (max-height: 640px){
-    header .main h1{
+@media screen and (max-width: 360px) and (max-height: 640px) {
+    header .main h1 {
         width: 100%;
         font-size: 4em;
         margin-bottom: 20px;
     }
 
-    header .main h2{
+    header .main h2 {
         width: 100%;
         text-transform: uppercase;
-        font-size: 0.9em;
+        font-size: 0.7em;
         letter-spacing: .2rem;
         color: #fff;
     }
-    
-    header .main button{
-        
+
+    header .main button {
+
         width: 100px;
         height: 30px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
-    header div .button{
-    
+    header div .button {
+
         width: 100%;
-    } 
+    }
 
     .principal {
         flex-direction: column-reverse;
-    
+
     }
-    
-    .main{
-        flex:1;
-       justify-content: center;
+
+    .main {
+        flex: 1;
+        justify-content: center;
     }
-    
-    
+
+
     header .logo img {
-        height: 20px; 
+        height: 20px;
         width: 20px;
     }
-    
+
     header .logo {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        
-    
+
+
         align-self: center;
         justify-self: center;
         width: 50%;
         height: 100%;
     }
-/*---------------------------------------------------sobre nos--------------------------------------------------------*/
+
+    /*---------------------------------------------------sobre nos--------------------------------------------------------*/
     /*escondendo o menu*/
     header nav {
         display: none;
     }
+
     /* mostrando o menu hamburguer */
     header .container {
         display: flex;
     }
 
-
-    .titulo2 h2{
-        
-        font-size: 30px;
-       
-    
+    .dropdown-child {
+        width: 30vw;
     }
-    
-    .titulo2 p{
+
+
+    .titulo2 h2 {
+        font-size: 30px;
+    }
+
+    .titulo2 p {
         margin-top: 30px;
         font-size: 15px;
     }
-    
+
     .texto {
-       
+
         width: 70%;
         height: 90%;
-        
-        font-size:13px;
+
+        font-size: 13px;
     }
 
-/*------------------------------------------------------------serviços------------------------------------------------------*/
-    .service .card{ 
-        
-        
+    /*------------------------------------------------------------serviços------------------------------------------------------*/
+    .service .card {
+
+
         width: 62vw;
-        height: 35vh;
-        
+        height: 38vh;
+
     }
 
-    .service .card .subtitle{
+    .service .card .subtitle {
         width: 100%;
         height: 40%;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         margin-top: 20px;
     }
 
-    .service .card .info{
+    .service .card .info {
         padding-top: 20px;
         width: 70%;
-        font-size: 16px;
+        font-size: 14px;
         align-self: center;
-        font-weight: 500; 
-        margin-bottom:20px;
-        }
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
 
-    .service .name-section{
-            font-size: 30px;    
-        }
-        
-    .service .description{
-            font-size: 15px;
-        }
-
-    /*----------------------------Equipe----------------------------*/
-    .equipe h2{
+    .service .name-section {
         font-size: 30px;
     }
 
-    .equipe p{
-        
+    .service .description {
+        font-size: 15px;
+    }
+
+    /*----------------------------Equipe----------------------------*/
+    .equipe h2 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .equipe p {
         font-size: 15px;
     }
 
     .team .card img,
-    .team .card-2 img{
-
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;  
+    .team .card-2 img {
+        width: 100px;
+        height: 100px;
     }
 
-    .team .card .name, 
-    .team .card-2 .name{
+    .team .card .name,
+    .team .card-2 .name {
         padding-top: 5px;
         font-size: 14px;
-
     }
 
     .team .card .charge,
-    .team .card-2 .charge{
-    
+    .team .card-2 .charge {
+
         font-size: 10px;
-    
+
     }
 
     /*---------------------------------------------------------Contato-------------------------------*/
@@ -157,52 +157,48 @@
 
     }
 
-    section .description{
+    section .description {
         font-size: 15px;
-
     }
 
-    form label{
-    
+    form label {
         font-size: 13px;
-        
     }
 
-    form button{
+    form button {
         width: 27vw;
         height: 8vh;
-        
-        font-size: 15px ;
-        
+        font-size: 15px;
         letter-spacing: 2px;
-    
     }
 
     /*-----------------------------Footer-------------------*/
-    
-    footer .rodape div{
+
+    footer .rodape div {
         margin-left: 20px;
         margin-right: 20px;
         width: 40vw;
-        height: 60%;
+        height: 45%;
     }
-    .rodape .name{
+
+    .rodape .name {
         font-size: 25px;
-        
+
     }
-    
-    .rodape .copy{
+
+    .rodape .copy {
         width: 80%;
         font-size: 10px;
     }
 
     .rodape li {
         font-size: 10px;
-        
+
 
     }
-        
-    .rodape address{
-        
+
+    .rodape address {
+
         font-size: 10px;
     }
+}

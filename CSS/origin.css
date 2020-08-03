@@ -36,7 +36,7 @@ header .dropdown {
 }
 
 header .menu{
-    padding: 50px;
+    padding: 40px;
     display: grid;
     grid-template-columns: 20% 80%;
 }
@@ -47,6 +47,7 @@ header .menu h2{
     font-size: 36px;
     color: white;
     align-self: center;
+    justify-content: start;
 }
 
 header .menu a{
@@ -217,12 +218,13 @@ label[for="checkbox-menu"] span:nth-child(3) {
     margin-top: 30px;
     align-items: center;
     border-radius: 10px;
-    width: 20vh;
+    width: 20vw;
 }
 
 .dropdown-child a {
     color: white;
-    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -230,6 +232,10 @@ label[for="checkbox-menu"] span:nth-child(3) {
 
 input[type=checkbox]:checked~#myDropdown {
     display: block;
+}
+
+.dropdown-child:active~#myDropdown {
+    display: none;
 }
 
 /*-----------------------------------Serviços--------------------------------------*/
@@ -247,7 +253,7 @@ input[type=checkbox]:checked~#myDropdown {
 }
 .service .name-section{
     margin-top: 80px;
-    font-family: 'Roboto', black;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
     color: #111A21;
@@ -284,6 +290,7 @@ input[type=checkbox]:checked~#myDropdown {
 .service .card .subtitle{
     width: 100%;
     height: 20%;
+    font-family: 'Roboto', sans-serif;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
@@ -314,7 +321,7 @@ input[type=checkbox]:checked~#myDropdown {
 }
 .titulo2 h2{
     margin-top: 80px;
-    font-family: 'Roboto', black;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
     color: #111A21;
@@ -351,15 +358,15 @@ input[type=checkbox]:checked~#myDropdown {
 
 /*------------------------------------------Equipe-----------------------------------------------------*/
 
-.team{
+/*.team{
     display: flex; 
     flex-direction: column;
     margin: auto;
     width: 90vw;
-}
+}*/
 .equipe h2{
     margin-top: 80px;
-    font-family: 'Roboto', black;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     text-align: center;
     color: #111A21;
@@ -380,28 +387,40 @@ input[type=checkbox]:checked~#myDropdown {
     margin-bottom: 5vh;
 }
 .team .card{
-    display: flex; 
-    flex-direction: column;
-    width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 60vw;
+	margin: 0 auto;
 }
 
-.team .card div{
+/*.team .card div{
     width: 90vw;
     display: flex; 
     flex-direction: row;
-}
+}*/
 
 .team .card .persona{
     display: flex; 
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 .team .card img,
 .team .card-2 img{
     object-fit: cover;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;  
+    width: 300px;
+    height: 300px;  
+}
+
+/* TIRAR DAQUI DEPOIS*/
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    .team .card img,
+    .team .card-2 img{
+        width: 250px;
+        height: 250px;  
+    }
 }
 
 .team .card .name, 

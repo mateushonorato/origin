@@ -84,23 +84,20 @@
     }
 
     .service .description {
-        font-size: 14px;
+        font-size: 15px;
     }
 
-    .service .card {
-        width: 40vw;
-        height: 60vh;
+    .service .card-container .card {
+        width: 35vw;
+        height: 35vw;
     }
 
-    .service .card .subtitle {
+    .service .card-container .card .subtitle {
         font-size: 20px;
-        margin-top: 20px;
     }
 
-    .service .card .info {
-        width: 70%;
+    .service .card-container .card .info {
         font-size: 14px;
-        margin-bottom: 20px;
     }
 
     /* equipe */ 
@@ -158,11 +155,19 @@
     }
 
     /* rodape */
-    footer .rodape {
-        height: 80vh;
+    .rodape .name {
+        font-size: 25px;
     }
 
-    footer .rodape div {
-        width: 20vw;
+    .rodape .copy {
+        font-size: 12px;
+    }
+
+    .rodape li {
+        font-size: 12px;
+    }
+
+    .rodape address {
+        font-size: 12px;
     }
 }

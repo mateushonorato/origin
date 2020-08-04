@@ -101,31 +101,24 @@
     }
 
     /* equipe */ 
-    .team{
-        padding-top: 10px;
-    }
     .equipe h2 {
-        height: 100%;
         font-size: 30px;
     }
 
     .equipe p {
-        margin-top: 0px;
-        font-size: 14px;
-        margin-bottom: 40px;
+        font-size: 15px;
     }
 
-    .team .card .persona img {
-        width: 150px;
-        height: 150px;
+    .team .card img {
+        width: 25vw;
+        height: 25vw;
     }
 
     .team .card .name {
-        padding-top: 5px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
-    .team .card .charge {
+    .team .card .charge{
         font-size: 10px;
     }
 

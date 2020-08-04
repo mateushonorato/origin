@@ -75,17 +75,6 @@
         font-size: 16px;
     }
 
-    /* equipe */
-    .team{
-        padding-top: 50px;
-        background-color: none;
-    }
-
-    .team .card .persona img{
-        width: 180px;
-        height: 180px;  
-    }
-
     /* contato */
     .contact {       
         width: 70vw;

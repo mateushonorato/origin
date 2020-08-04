@@ -395,8 +395,8 @@ input[type=checkbox]:checked~#myDropdown {
 .team .card img {
     object-fit: cover;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;  
+    width: 20vw;
+    height: 20vw;
 }
 
 .team .card .name {
@@ -414,13 +414,13 @@ input[type=checkbox]:checked~#myDropdown {
     font-family: 'Roboto';
     font-size: 16px;
     width: 100%;
-    height: 10vh;
 }
 
 /*-------------------------------------------Contato-------------------------------------------------*/
 .contact {       
     width: 40vw;
     margin: auto; 
+    margin-top: 30px;
 }
 
 section .name-section {
@@ -524,6 +524,10 @@ footer .rodape ul{
     text-decoration: none;
     color: white;
     font-style: normal;
+}
+
+.rodape li a:hover{
+    font-weight: bold;
 }
 
 .rodape address{

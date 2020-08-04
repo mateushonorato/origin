@@ -108,13 +108,12 @@
         font-size: 15px;
     }
 
-    .team .card .persona img {
-        width: 100px;
-        height: 100px;
+    .team .card img {
+        width: 33vw;
+        height: 33vw;
     }
 
     .team .card .name {
-        padding-top: 5px;
         font-size: 14px;
     }
 

@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+    /* pagina inicial */
+    header .main h1{
+        font-size: 9em;
+    }
+
+    header .main h2{
+        font-size: 1em;
+        margin-top: 2px;
+    }
+
+    header .main button{
+        width: 180px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    header div .button{
+        width: 85%;
+    }
+
+    header .logo {
+        margin-left: 0px;
+        width: 20%;
+    }
+
+    header .menu a{
+        margin-left: 0px;
+    }
+
+    header .menu h2{
+        align-self: start;
+    }
+    
+    /* escondendo o menu normal */
+    header nav {
+        display: none;
+    }
+
+    /* mostrando o menu hamburguer */
+    header .container {
+        display: flex;
+        margin-left: auto;
+    }
+
+    /* sobre nós */
+    .layout{
+        margin-top: 50px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .texto {
+        width: 80%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .image-pessoas img {
+        width: 70vw;
+    }
+
+    /* serviços */
+    .service .card-container .card {
+        width: 36vw;
+        height: 36vw;
+    }
+    
+    .service .card-container .card .subtitle{
+        font-size: 28px;
+        font-size: 3.2vw;
+    }
+    
+    .service .card-container .card .info{
+        font-size: 16px;
+        font-size: 2.2vw;
+    }
+
+    /* contato */
+    .contact {       
+        width: 70vw;
+        border-top:10px solid #fff;
+    }
+    form .mensage input{
+        padding-bottom: 150px;
+    }
+    form button{
+        width: 20vw;
+        height: 8vh;
+        font-size: 20px;
+    }
+}
